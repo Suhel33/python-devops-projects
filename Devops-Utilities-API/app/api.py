@@ -14,7 +14,7 @@ def hello():
     """
         This is a hello API. Just for a testing
     """
-    return {"message":"Hello Dosto, Thid is a DevOps Utilities API."}
+    return {"message":"Hello Dosto, This is a DevOps Utilities API."}
 
 app.include_router(metrics_route.router)
 app.include_router(aws_route.router, prefix="/aws")
